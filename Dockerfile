@@ -1,5 +1,6 @@
-FROM postgres:12
-LABEL maintainer="Brady Holt <brady.holt@gmail.com>"
+FROM postgres:latest
+
+EXPOSE 5432
 
 ENV POSTGRES_DB=northwind
 ENV POSTGRES_USER=northwind
